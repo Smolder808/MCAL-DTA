@@ -2,6 +2,7 @@
 """
 作者：毕宸浩
 日期：2023年08月18日
+https://github.com/bixiangpeng/HiSIF-DTA
 """
 import Bio.PDB
 import numpy as np
