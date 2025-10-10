@@ -151,9 +151,9 @@ class Drug_Encoder(nn.Module):
         
         return drug_embed
 
-class MultiDTA(nn.Module):
+class MCAL_DTA(nn.Module):
     def __init__(self, n_output, output_dim, num_features_xd, num_features_pro, device, pro_num, batch_size):
-        super(MultiDTA, self).__init__()
+        super(MCAL_DTA, self).__init__()
         
         self.pro_num = pro_num
         self.output_dim = output_dim

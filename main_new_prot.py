@@ -4,7 +4,7 @@ import torch
 import json
 import warnings
 from utils import DTADataset, GraphDataset, custom_collate, model_evaluate, load_pickle, proGraph
-from models import MultiDTA
+from models import MCAL_DTA
 import numpy as np
 import pandas as pd
 from torch_geometric.loader import DataLoader
@@ -92,7 +92,7 @@ if __name__ == '__main__':
     TEST_BATCH_SIZE = args.batch_size
     NUM_EPOCHS = args.epochs
     LR = args.lr
-    Model = MultiDTA
+    Model = MCAL_DTA
     kfold = args.fold
     max_patience = args.max_patience
 
