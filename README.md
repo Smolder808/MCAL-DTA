@@ -76,4 +76,9 @@ For more details about contact map file, you could refer to [HiSIF-DTA](https://
 
 1. Getting the pre-trained features of drugs and proteins by running the ```generate_drug_pretrain.py``` and ```generate_prot_pretrain.py``` script.
 2. Getting the graph features of drugs and proteins by running the ```create_graph_data.py``` script.
-3. 
+3. Running the ```data_split.py``` to get the training set, validation set and test set of 5-fold cross-validation experiments.
+
+## Training model
+
+4. Running ```main.py``` to train the model on Davis or KIBA dataset under the warm and unseen-drug setting.
+5. Running ```main_new_prot.py``` and ```main_new_pair``` to train the model under the unseen-prot and unseen-pair setting.
