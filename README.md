@@ -1,8 +1,6 @@
 # MCAL-DTA
 MCAL-DTA: A multimodal method integrating cross-attention and local feature enhancement for drug-target affinity prediction
 
-![MCAL_DTA](.\MCAL_DTA.png)
-
 # Requirements
 
 pytorch==1.13
